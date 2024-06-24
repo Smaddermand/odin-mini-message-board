@@ -1,0 +1,32 @@
+<!-- new.ejs -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <form method="POST" action="/new" id="messageform">
+      <fieldset>
+        <legend>New Message</legend>
+        <div>
+          <label for="messageUser">User Name:</label>
+          <input type="text" id="messageUser" name="messageUser" required />
+        </div>
+        <br />
+        <div>
+          <label for="messageText">Message:</label>
+          <input type="text" id="messageText" name="messageText" required />
+        </div>
+        <br />
+        <div>
+          <button type="submit" form="messageform" value="Submit">
+            Submit
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

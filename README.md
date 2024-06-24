@@ -5,9 +5,9 @@ TODO
 - [x] Skeleton - Express Generator
 - [x] Git
 - [x] Create Message setup
-- [ ] Create Routes
-- [ ] Views
-- [ ] Setup message form
-- [ ] Submit button
-- [ ] Router
+- [x] Create Routes
+- [x] Views
+- [x] Setup message form
+- [x] Submit button
+- [x] Router
 - [ ] Deploy
