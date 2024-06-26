@@ -10,4 +10,4 @@ TODO
 - [x] Setup message form
 - [x] Submit button
 - [x] Router
-- [ ] Deploy
+- [x] Deploy
